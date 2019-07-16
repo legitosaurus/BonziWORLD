@@ -1,7 +1,7 @@
 // http://stackoverflow.com/a/26118970
 var undefined;
 var hostname = isApp ? 'bonzi.dega.io' : window.location.hostname;
-var socket = io(`https://${hostname}`);
+var socket = io('https://' + hostname);
 
 var usersPublic = {};
 var bonzis = {};
